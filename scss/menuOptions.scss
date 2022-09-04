@@ -1,0 +1,99 @@
+.menu {
+    margin-top: 50px;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: 200px;
+    
+    .menuRow {
+        display: flex;
+        margin-bottom: 90px;
+
+        .menuOptions {
+            margin-right: 110px;
+
+            .coffeeImg {
+                height: 200px;
+                width: 130px;
+                background-image: url("/images/coffeeMenu.png");
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center;
+                margin-bottom: 30px;
+                margin-left: 35px;
+            }
+        
+            .coffeeBtn {
+                height: 35px;
+                width: 200px;
+                border-radius: 20px;
+                color: #FFF;
+                background-color: #C53263;
+                border: 1px solid #C53263;
+                cursor: pointer;
+            }
+
+            .teaImg {
+                height: 200px;
+                width: 130px;
+                background-image: url("/images/teaMenu.png");
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center;
+                margin-bottom: 30px;
+                margin-left: 35px;
+            }
+
+            .teaBtn {
+                height: 35px;
+                width: 200px;
+                border-radius: 20px;
+                color: #FFF;
+                background-color: #C53263;
+                border: 1px solid #C53263;
+                cursor: pointer;
+            }
+
+            .frozenImg {
+                height: 200px;
+                width: 130px;
+                background-image: url("/images/frozenMenu.png");
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center;
+                margin-bottom: 30px;
+                margin-left: 35px;
+            }
+
+            .frozenBtn {
+                height: 35px;
+                width: 200px;
+                border-radius: 20px;
+                color: #FFF;
+                background-color: #C53263;
+                border: 1px solid #C53263;
+                cursor: pointer;
+            }
+
+            .sandwichesImg {
+                height: 170px;
+                width: 160px;
+                background-image: url("/images/sandwichesMenu.png");
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center;
+                margin-bottom: 60px;
+                margin-left: 30px;
+            }
+
+            .sandwichesBtn {
+                height: 35px;
+                width: 200px;
+                border-radius: 20px;
+                color: #FFF;
+                background-color: #C53263;
+                border: 1px solid #C53263;
+                cursor: pointer;
+            }
+        }
+    }
+}

@@ -1,0 +1,85 @@
+.perksRow {
+    display: flex;
+    margin-bottom: 30px;
+
+.ddPerks {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 400px;
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-right: 40px;
+
+    .perksDonutIcon {
+        height: 70px;
+        width: 70px;
+        background-image: url("/images/donutPerks.svg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .perksCoffeeIcon {
+        width: 60px;
+        height: 90px;
+        background-image: url("/images/coffeePerks.svg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        top: 20px;
+    }
+
+    .perksRunIcon {
+        width: 70px;
+        height: 80px;
+        background-image: url("/images/runPerks.svg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        top: 15px;
+    }
+
+    .perksTxt {
+        height: 65px;
+        width: 300px;
+        
+        .header {
+            font-weight: bold;
+            font-size: 25px;
+        }
+
+        .perksDesc {
+            font-size: 18px;
+        }
+    }
+}
+}
+
+.perksBtnRow {
+    margin-top: 60px;
+    margin-left: 270px;
+
+    .signUp {
+        height: 40px;
+        width: 160px;
+        border-radius: 20px;
+        color: #fff;
+        background-color: #C53263;
+        border: 1px solid #C53263;
+        margin-right: 20px;
+        cursor: pointer;
+    }
+
+    .learnMore {
+        height: 40px;
+        width: 160px;
+        border-radius: 20px;
+        color: #C53263;
+        background-color: #fff;
+        border: 1px solid #C53263;
+        cursor: pointer;
+    }
+}

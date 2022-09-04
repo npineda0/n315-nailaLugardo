@@ -1,0 +1,157 @@
+.earnPerks {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+    //justify-content: space-evenly;
+    
+    .earnImg {
+        height: 230px;
+        width: 260px;
+        background-image: url("/images/ddPerksCoffeeImg.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .earnInfo {
+        text-align: center;
+        margin-left: 200px;
+
+        .orangeHeader {
+            color: #F56100;
+            font-weight: bold;
+            font-size: 30px;
+        }
+
+        .pinkHeader {
+            color: #C53263;
+            font-weight: bold;
+            font-size: 29px;
+        }
+
+        .earnTxt {
+            width: 250px;
+        }
+    }
+}
+
+.payPerks {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+    //justify-content: space-evenly;
+    
+    .payImg {
+        height: 230px;
+        width: 500px;
+        background-image: url("/images/ddPerksCardImg.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .payInfo {
+        text-align: center;
+        margin-left: 200px;
+
+        .orangeHeader {
+            color: #F56100;
+            font-weight: bold;
+            font-size: 30px;
+        }
+
+        .pinkHeader {
+            color: #C53263;
+            font-weight: bold;
+            font-size: 29px;
+        }
+
+        .payTxt {
+            width: 250px;
+        }
+    }
+}
+
+.checkOutPerks {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+    //justify-content: space-evenly;
+    
+    .checkOutImg {
+        height: 230px;
+        width: 260px;
+        background-image: url("/images/ddPerksFood.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .checkOutInfo {
+        text-align: center;
+        margin-left: 200px;
+
+        .orangeHeader {
+            color: #F56100;
+            font-weight: bold;
+            font-size: 30px;
+        }
+
+        .pinkHeader {
+            color: #C53263;
+            font-weight: bold;
+            font-size: 29px;
+        }
+
+        .checkOutTxt {
+            width: 250px;
+        }
+    }
+}
+
+.orderPerks {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+    justify-content: space-between;
+    
+    .orderImg {
+        height: 230px;
+        width: 300px;
+        background-image: url("/images/ddPerksOrder.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .orderInfo {
+        text-align: center;
+        margin-left: 200px;
+
+        .orangeHeader {
+            color: #F56100;
+            font-weight: bold;
+            font-size: 30px;
+        }
+
+        .pinkHeader {
+            color: #C53263;
+            font-weight: bold;
+            font-size: 29px;
+        }
+
+        .orderTxt {
+            width: 250px;
+        }
+
+        .downloadApp {
+            height: 30px;
+            width: 180px;
+            border-radius: 20px;
+            color: #fff;
+            background-color: #C53263;
+            border: 1px solid #C53263;
+            cursor: pointer;
+        }
+    }
+}

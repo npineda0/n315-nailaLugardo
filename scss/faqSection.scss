@@ -1,0 +1,22 @@
+.faqHeader {
+    margin-top: 60px;
+    margin-bottom: 30px;
+    margin-left: 150px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.faqInfo {
+    margin-left: 150px;
+    width: 650px;
+
+    .question {
+        color: #C53263;
+        font-weight: bold;
+    }
+
+    .answer {
+        font-size: 15px;
+        margin-bottom: 30px;
+    }
+}

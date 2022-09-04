@@ -1,0 +1,53 @@
+.appPromo {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    .phoneImg {
+        height: 300px;
+        width: 250px;
+        background-image: url("/images/phoneAppImg.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .appInfo {
+        margin-left: -150px;
+
+        .orangeTxt {
+            color: #F56100;
+            font-size: 50px;
+        }
+
+        .appPinkTxt {
+            color: #C53263;
+            font-size: 30px;
+        }
+
+        .getApp {
+            display: flex;
+
+            .appApple {
+                height: 40px;
+                width: 130px;
+                background-image: url("/images/AppleStore.png");
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center;
+                margin-right: 20px;
+                cursor: pointer;
+            }
+
+            .appGoogle {
+                height: 40px;
+                width: 130px;
+                background-image: url("/images/googleStore.png");
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center;
+                cursor: pointer;
+            }
+        }
+    }
+}

@@ -1,0 +1,597 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin-bottom: 16px;
+}
+
+nav {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+nav .logo {
+  height: 140%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+nav .logo img {
+  height: 100%;
+}
+nav .links {
+  width: 400px;
+  margin-left: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+nav .links a {
+  text-decoration: none;
+  color: #000;
+}
+
+.hero {
+  max-width: 900px;
+  height: 220px;
+  margin: 0 auto;
+  background-image: url("/images/heroImg.png");
+  background-repeat: none;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+.hero .heroText {
+  position: absolute;
+  margin-left: 275px;
+  margin-top: 50px;
+  text-align: center;
+}
+.hero .heroText .orangeTxt {
+  font-size: 25px;
+  color: #FF6D01;
+}
+.hero .heroText .pinkTxt {
+  font-size: 25px;
+  color: #C53263;
+}
+
+.perksRow {
+  display: flex;
+  margin-bottom: 30px;
+}
+.perksRow .ddPerks {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 400px;
+  margin-top: 40px;
+  margin-left: 20px;
+  margin-right: 40px;
+}
+.perksRow .ddPerks .perksDonutIcon {
+  height: 70px;
+  width: 70px;
+  background-image: url("/images/donutPerks.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.perksRow .ddPerks .perksCoffeeIcon {
+  width: 60px;
+  height: 90px;
+  background-image: url("/images/coffeePerks.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  top: 20px;
+}
+.perksRow .ddPerks .perksRunIcon {
+  width: 70px;
+  height: 80px;
+  background-image: url("/images/runPerks.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  top: 15px;
+}
+.perksRow .ddPerks .perksTxt {
+  height: 65px;
+  width: 300px;
+}
+.perksRow .ddPerks .perksTxt .header {
+  font-weight: bold;
+  font-size: 25px;
+}
+.perksRow .ddPerks .perksTxt .perksDesc {
+  font-size: 18px;
+}
+
+.perksBtnRow {
+  margin-top: 60px;
+  margin-left: 270px;
+}
+.perksBtnRow .signUp {
+  height: 40px;
+  width: 160px;
+  border-radius: 20px;
+  color: #fff;
+  background-color: #C53263;
+  border: 1px solid #C53263;
+  margin-right: 20px;
+  cursor: pointer;
+}
+.perksBtnRow .learnMore {
+  height: 40px;
+  width: 160px;
+  border-radius: 20px;
+  color: #C53263;
+  background-color: #fff;
+  border: 1px solid #C53263;
+  cursor: pointer;
+}
+
+.dunkinLocation {
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.dunkinLocation .map {
+  height: 400px;
+  width: 300px;
+  background-image: url("/images/map.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.dunkinLocation .visitTxt {
+  text-align: center;
+}
+.dunkinLocation .visitTxt .locationHeader {
+  line-height: 80%;
+  margin-bottom: 30px;
+}
+.dunkinLocation .visitTxt .locationHeader .orangeTxt {
+  font-size: 40px;
+  color: #F56100;
+}
+.dunkinLocation .visitTxt .locationHeader p {
+  font-size: 20px;
+}
+.dunkinLocation .visitTxt .lightPinkTxt {
+  color: #C53263;
+}
+.dunkinLocation .visitTxt .boldPinkTxt {
+  color: #C53263;
+  font-weight: bold;
+}
+.dunkinLocation .visitTxt .time {
+  display: flex;
+  align-items: center;
+  margin-left: 35px;
+}
+.dunkinLocation .visitTxt .time .timeBold {
+  margin-left: 5px;
+  font-weight: bold;
+}
+.dunkinLocation .visitTxt .phone {
+  display: flex;
+  align-items: center;
+  margin-left: 45px;
+}
+.dunkinLocation .visitTxt .phone .phoneNum {
+  text-decoration: underline;
+  color: #C53263;
+  font-weight: bold;
+  margin-left: 5px;
+}
+.dunkinLocation .visitTxt .details {
+  height: 30px;
+  width: 140px;
+  border-radius: 20px;
+  color: #FFF;
+  background-color: #C53263;
+  border: 1px solid #C53263;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+.dunkinLocation .visitTxt .location {
+  height: 40px;
+  width: 200px;
+  border-radius: 20px;
+  color: #FFF;
+  background-color: #C53263;
+  border: 1px solid #C53263;
+  cursor: pointer;
+}
+
+.menuInfo {
+  text-align: center;
+  margin-top: 40px;
+}
+.menuInfo .menuHeader {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.menu {
+  margin-top: 50px;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-left: 200px;
+}
+.menu .menuRow {
+  display: flex;
+  margin-bottom: 90px;
+}
+.menu .menuRow .menuOptions {
+  margin-right: 110px;
+}
+.menu .menuRow .menuOptions .coffeeImg {
+  height: 200px;
+  width: 130px;
+  background-image: url("/images/coffeeMenu.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 30px;
+  margin-left: 35px;
+}
+.menu .menuRow .menuOptions .coffeeBtn {
+  height: 35px;
+  width: 200px;
+  border-radius: 20px;
+  color: #FFF;
+  background-color: #C53263;
+  border: 1px solid #C53263;
+  cursor: pointer;
+}
+.menu .menuRow .menuOptions .teaImg {
+  height: 200px;
+  width: 130px;
+  background-image: url("/images/teaMenu.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 30px;
+  margin-left: 35px;
+}
+.menu .menuRow .menuOptions .teaBtn {
+  height: 35px;
+  width: 200px;
+  border-radius: 20px;
+  color: #FFF;
+  background-color: #C53263;
+  border: 1px solid #C53263;
+  cursor: pointer;
+}
+.menu .menuRow .menuOptions .frozenImg {
+  height: 200px;
+  width: 130px;
+  background-image: url("/images/frozenMenu.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 30px;
+  margin-left: 35px;
+}
+.menu .menuRow .menuOptions .frozenBtn {
+  height: 35px;
+  width: 200px;
+  border-radius: 20px;
+  color: #FFF;
+  background-color: #C53263;
+  border: 1px solid #C53263;
+  cursor: pointer;
+}
+.menu .menuRow .menuOptions .sandwichesImg {
+  height: 170px;
+  width: 160px;
+  background-image: url("/images/sandwichesMenu.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 60px;
+  margin-left: 30px;
+}
+.menu .menuRow .menuOptions .sandwichesBtn {
+  height: 35px;
+  width: 200px;
+  border-radius: 20px;
+  color: #FFF;
+  background-color: #C53263;
+  border: 1px solid #C53263;
+  cursor: pointer;
+}
+
+.appPromo {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.appPromo .phoneImg {
+  height: 300px;
+  width: 250px;
+  background-image: url("/images/phoneAppImg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.appPromo .appInfo {
+  margin-left: -150px;
+}
+.appPromo .appInfo .orangeTxt {
+  color: #F56100;
+  font-size: 50px;
+}
+.appPromo .appInfo .appPinkTxt {
+  color: #C53263;
+  font-size: 30px;
+}
+.appPromo .appInfo .getApp {
+  display: flex;
+}
+.appPromo .appInfo .getApp .appApple {
+  height: 40px;
+  width: 130px;
+  background-image: url("/images/AppleStore.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-right: 20px;
+  cursor: pointer;
+}
+.appPromo .appInfo .getApp .appGoogle {
+  height: 40px;
+  width: 130px;
+  background-image: url("/images/googleStore.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  cursor: pointer;
+}
+
+.deliverImgs {
+  margin-left: 260px;
+}
+.deliverImgs .deliverLogo {
+  height: 130px;
+  width: 405px;
+  background-image: url("/images/deliverLogo.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.deliverImgs .foodImg {
+  height: 100px;
+  width: 360px;
+  background-image: url("/images/coffee-donut-sandwich-img.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: cover;
+  margin-left: 35px;
+}
+
+.pinkTxt {
+  color: #C53263;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.locationTxt {
+  text-align: center;
+  letter-spacing: 1.2px;
+  margin-left: 10px;
+}
+
+.searchLocation {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.searchLocation input {
+  width: 200px;
+  margin-right: -300px;
+}
+.searchLocation button {
+  height: 25px;
+  width: 100px;
+  border-radius: 20px;
+  color: #fff;
+  background-color: #C53263;
+  border: 1px solid #C53263;
+  cursor: pointer;
+}
+
+.faqHeader {
+  margin-top: 60px;
+  margin-bottom: 30px;
+  margin-left: 150px;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.faqInfo {
+  margin-left: 150px;
+  width: 650px;
+}
+.faqInfo .question {
+  color: #C53263;
+  font-weight: bold;
+}
+.faqInfo .answer {
+  font-size: 15px;
+  margin-bottom: 30px;
+}
+
+.earnPerks {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+}
+.earnPerks .earnImg {
+  height: 230px;
+  width: 260px;
+  background-image: url("/images/ddPerksCoffeeImg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.earnPerks .earnInfo {
+  text-align: center;
+  margin-left: 200px;
+}
+.earnPerks .earnInfo .orangeHeader {
+  color: #F56100;
+  font-weight: bold;
+  font-size: 30px;
+}
+.earnPerks .earnInfo .pinkHeader {
+  color: #C53263;
+  font-weight: bold;
+  font-size: 29px;
+}
+.earnPerks .earnInfo .earnTxt {
+  width: 250px;
+}
+
+.payPerks {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+}
+.payPerks .payImg {
+  height: 230px;
+  width: 500px;
+  background-image: url("/images/ddPerksCardImg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.payPerks .payInfo {
+  text-align: center;
+  margin-left: 200px;
+}
+.payPerks .payInfo .orangeHeader {
+  color: #F56100;
+  font-weight: bold;
+  font-size: 30px;
+}
+.payPerks .payInfo .pinkHeader {
+  color: #C53263;
+  font-weight: bold;
+  font-size: 29px;
+}
+.payPerks .payInfo .payTxt {
+  width: 250px;
+}
+
+.checkOutPerks {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+}
+.checkOutPerks .checkOutImg {
+  height: 230px;
+  width: 260px;
+  background-image: url("/images/ddPerksFood.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.checkOutPerks .checkOutInfo {
+  text-align: center;
+  margin-left: 200px;
+}
+.checkOutPerks .checkOutInfo .orangeHeader {
+  color: #F56100;
+  font-weight: bold;
+  font-size: 30px;
+}
+.checkOutPerks .checkOutInfo .pinkHeader {
+  color: #C53263;
+  font-weight: bold;
+  font-size: 29px;
+}
+.checkOutPerks .checkOutInfo .checkOutTxt {
+  width: 250px;
+}
+
+.orderPerks {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+  justify-content: space-between;
+}
+.orderPerks .orderImg {
+  height: 230px;
+  width: 300px;
+  background-image: url("/images/ddPerksOrder.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.orderPerks .orderInfo {
+  text-align: center;
+  margin-left: 200px;
+}
+.orderPerks .orderInfo .orangeHeader {
+  color: #F56100;
+  font-weight: bold;
+  font-size: 30px;
+}
+.orderPerks .orderInfo .pinkHeader {
+  color: #C53263;
+  font-weight: bold;
+  font-size: 29px;
+}
+.orderPerks .orderInfo .orderTxt {
+  width: 250px;
+}
+.orderPerks .orderInfo .downloadApp {
+  height: 30px;
+  width: 180px;
+  border-radius: 20px;
+  color: #fff;
+  background-color: #C53263;
+  border: 1px solid #C53263;
+  cursor: pointer;
+}
+
+footer {
+  margin-top: 100px;
+  align-items: center;
+}
+footer hr {
+  width: 700px;
+  margin-left: 120px;
+  margin-bottom: 40px;
+}
+footer .footerRow {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 13px;
+  font-weight: bold;
+  text-align: left;
+}
+footer .copyright {
+  text-align: center;
+  margin-top: 30px;
+  font-weight: lighter;
+  font-size: 13px;
+}
+
+/*# sourceMappingURL=styles.css.map */

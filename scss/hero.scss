@@ -1,0 +1,27 @@
+.hero {
+    max-width: 900px;
+    height: 220px;
+    margin: 0 auto;
+    background-image: url("/images/heroImg.png");
+    background-repeat: none;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+
+    .heroText {
+        position: absolute;
+        margin-left: 275px;
+        margin-top: 50px;
+        text-align: center;
+
+        .orangeTxt {
+            font-size: 25px;
+            color: #FF6D01;
+        }
+
+        .pinkTxt {
+            font-size: 25px;
+            color: #C53263;
+        }
+    }
+}

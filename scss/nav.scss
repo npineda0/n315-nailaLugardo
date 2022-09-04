@@ -1,0 +1,31 @@
+nav {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+    .logo {
+        height: 140%;
+        //margin-left: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+
+        img {
+            height: 100%;
+        }
+    }
+
+    .links {
+        width: 400px;
+        margin-left: 300px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        
+        a {
+            text-decoration: none;
+            color: #000;
+        }
+    }
+}
